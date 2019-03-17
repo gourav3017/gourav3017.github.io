@@ -1,0 +1,158 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+
+    <title>Gourav Jhanwar - About Me</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-105220526-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default">
+<div class="container">
+<div class="navbar-header">
+  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span> 
+  </button>
+  <a class="navbar-brand" href="index.html">Gourav Jhanwar</a>
+</div>
+<div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav">
+        
+        
+          <li><a href="index.html">About Me</a></li>
+        
+        
+        
+          <li class="active"><a href="research.html">Research and Projects</a></li>
+        
+        
+        
+          <li><a href="awards.html">Awards</a></li>
+        
+        
+        
+          <li><a href="assets/resumes/Gourav Jhanwar Resume RA rev 3.pdf">Resume</a></li>
+        
+        
+    </ul>
+  </div>
+</div>
+</nav>
+
+    <div class="container">
+      <div class="row">
+  <div class="col-md-12" width="500">
+    <h1 class="page-header">Current Research Project</h1>
+    <p>
+      I have developed deep learning algorithm for estimating precise irrigation water requirement. It would help growers know irrigation water demand 
+	  without soil sensors. It combines LANDSAT remote sense data with weather data for esimating daily evapotranspiration using various biophysical models. 
+	  I have also developed cost calculators to understand the economics of Irrigation investment. I am currently working on development of bayesian decision models 
+	  using Markov Chain Monte Carlo for predicting harvest for vineyards in California. We have deployed these various models in web framework using Python Django.
+    </p>
+	<center><video width="700" height="500" controls>
+	<source src="assets\video\Video.mp4" type="video/mp4" />
+	</video></center>
+	<br>
+	
+	<h1 class="page-header">Portfolio Optimization with Linear and Fixed Transaction Costs</h1>                                                                                </h1>
+    <p>
+      In this paper, I consider the problem of optimal portfolio selection, with transaction costs and
+constraints on exposure to risk, short-sell constraints, etc. Under the assumption of linear transaction costs (which might not be completely realistic ), 
+bounds on the variance of the return,
+bounds on different shortfall probabilities, the optimization problem of maximizing the asset wealth is convex which can be solved efficiently.
+Portfolio optimization problems with transaction costs that include a fixed fee, or discount
+breakpoints, which are more realistic cannot be directly solved by convex optimization. I address this issue of non-convexity by solving a small 
+number of related convex optimization
+problems which can be used to provide better bounds for the original optimization problem.
+Thus, this method only produces a sub-optimal solution with an upper bound on the original
+optimum. This method involves employing a heuristic which only yields a sub-optimal solution
+    <br><br><br>
+	<img src="assets/img/stock_vis2.png" height="200" width="500"/>
+	<img src="assets/img/mu_v_sigma_n=4_fixed.png" height="200" width="500"/>
+	</p>
+	<br><br>
+	<h1 class="page-header">Brain Age Estimation Using Deep Learning</h1>
+    <p>
+      Estimating human age from brain MR images is useful for early detection of Alzheimer’s disease. In this project we 
+	  propose a fast and accurate method based on deep learning to predict subject’s age. Compared with previous methods, our 
+	  algorithm achieves comparable accuracy using fewer input images. With our GPU version program, the time needed to 
+	  make a prediction is 20 ms. We evaluate our methods using mean absolute error (MAE) and our method is able to predict 
+	  subject’s age with MAE of 4.0 years
+	  <br><br><br>
+		<img src="assets/img/Brain_age.JPG" height="300" width="500"/>
+		<img src="assets/img/Brain_age2.JPG" height="300" width="500"/>
+    </p>
+	<br><br>
+	<h1 class="page-header">Drug Interaction System</h1>
+    <p>
+      In this project I created a web application that uses PHP to parse through the RESTful API provided by the National Institute of Health 
+	  which provides information about various drugs. This web application would help doctors to know if there are 
+	  adverse interaction between two drugs recommended to the patients.
+	  
+	  <br><br><br>
+		<center><img src="assets/img/drugs.jpg" height="300" width="500"/></center>
+	
+    </p>
+	<br><br>
+	<h1 class="page-header">Stochastic model for permeability of oil reservoir</h1>
+    <p>
+      The permeability of the soil is one of the largest unknowns in modeling underground flows. 
+	  In this project, I created a 2D model of permeability that can be used for propagating uncertainties. 
+	  I created a mathematical form of the best stochastic model for the permeability using Gaussian Process Regression. I also constructed the 
+	  Karhunen-Loeve expansion of the field using enough quadrature points so that we get a converged Nystrom approximation. 
+	  
+	  <br><br><br>
+		<img src="assets/img/Oil.JPG" height="300" width="500"/>
+		<img src="assets/img/Oil2.JPG" height="300" width="500"/>
+    </p>
+	
+	<br>
+    
+<p> These are few of my projects. All the projects will be uploaded soon.
+
+    <footer class="container-fluid">
+      <p>Template built with <a href="http://getbootstrap.com">Bootstrap</a> by Gourav Jhanwar.</p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>

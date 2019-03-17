@@ -1,0 +1,22 @@
+{
+  "name": "gourav3017.github.io",
+  "homepage": "https://github.com/gourav3017/gourav3017.github.io",
+  "authors": [
+    "gourav3017 <gourav.jhanwar007@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "fontawesome": "^5.7.2",
+    "jquery": "^3.3.1"
+  }
+}
